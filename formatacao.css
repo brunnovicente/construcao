@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#base{
+    margin: auto;
+    width: 60%;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: end;
+    background-color: cornflowerblue;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+nav li a:hover{
+    background-color: royalblue;
+    color: black;
+}
+
+.fpag{
+    width: 50px;
+    margin-right: 10px;
+}
+
+h3{
+    font-family: Verdana;
+    color: royalblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-rodape{
+    font-family: Verdana;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #DCDCDC;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana;
+}
+h1, h2 {
+    color: #0078d7;
+    font-family: Verdana;
+}
+.highlights {
+    background-color: #e8f4ff;
+    padding: 15px;
+    margin: 20px auto;
+    border: 1px solid #0078d7;
+    border-radius: 5px;
+    width: 80%;
+    font-family: Verdana;
+}
+
+.produtos{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.card h4{
+    text-align: center;
+    color: black;
+}
+
+.card h3{
+    text-align: center;
+    color: orange;
+}
+
+.login{
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Verdana;
+}
+
+.login h2{
+    text-align: center;
+    color: #0078d7;
+    margin-bottom: 20px;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #005bb5;
+}
+
+.registro-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.registro-link a {
+    color: #0078d7;
+    text-decoration: none;
+}
+.registro-link a:hover {
+    text-decoration: underline;
+}
+
+.contato {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contato input, .contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contato button:hover {
+    background-color: #005bb5;
+}
+
+.contato button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
