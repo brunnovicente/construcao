@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    ESTILIZAÇÃO DA PÁGINA INICIAL
+*/
+#base{
+    margin: auto;
+    width: 60%;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: end;
+    background-color: cornflowerblue;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+nav li a:hover{
+    background-color: royalblue;
+    color: black;
+}
+
+.fpag{
+    width: 50px;
+    margin-right: 10px;
+}
+
+h3{
+    font-family: Verdana;
+    color: royalblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-rodape{
+    font-family: Verdana;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: #DCDCDC;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana;
+}
+h1, h2 {
+    color: #0078d7;
+    font-family: Verdana;
+}
+.highlights {
+    background-color: #e8f4ff;
+    padding: 15px;
+    margin: 20px auto;
+    border: 1px solid #0078d7;
+    border-radius: 5px;
+    width: 80%;
+    font-family: Verdana;
+}

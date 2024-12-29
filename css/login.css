@@ -1,0 +1,65 @@
+/*
+    ESTILIZAÇÃO DA PÁGINA DO LOGIN
+*/
+.login{
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Verdana;
+}
+
+.login h2{
+    text-align: center;
+    color: #0078d7;
+    margin-bottom: 20px;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #005bb5;
+}
+
+.registro-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.registro-link a {
+    color: #0078d7;
+    text-decoration: none;
+}
+.registro-link a:hover {
+    text-decoration: underline;
+}

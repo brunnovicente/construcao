@@ -1,0 +1,31 @@
+/*
+    ESTILIZAÇÃO DA PÁGINA DE PRODUTOS
+*/
+.produtos{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.card h4{
+    text-align: center;
+    color: black;
+}
+
+.card h3{
+    text-align: center;
+    color: orange;
+}

@@ -1,0 +1,44 @@
+/*
+    ESTILIZAÇÃO DA PÁGINA DO CONTATO
+*/
+.contato {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 40%;
+    font-family: Verdana;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contato input, .contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contato button:hover {
+    background-color: #005bb5;
+}
+
+.contato button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
