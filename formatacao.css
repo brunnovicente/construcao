@@ -185,6 +185,7 @@ h1, h2 {
     margin: 20px auto;
     border-radius: 5px;
     width: 40%;
+    font-family: Verdana;
 }
 
 .contato label {
